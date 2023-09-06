@@ -18,8 +18,12 @@ function App() {
 		<Item<Item, string>
 			item={item}
 			person={person}
-			handleClick={item => item}
-			handlePerson={person => person}
+			handleClick={item => {
+				console.log("first");
+			}}
+			handlePerson={person => {
+				console.log(person);
+			}}
 		/>
 	);
 }

@@ -1,8 +1,8 @@
 type Props<T, P> = {
 	item: T;
 	person: P;
-	handleClick: (item: T) => T;
-	handlePerson: (person: P) => P;
+	handleClick: (item: T) => undefined;
+	handlePerson: (person: P) => undefined;
 };
 
 // arrow function version
